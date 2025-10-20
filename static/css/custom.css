@@ -1,0 +1,36 @@
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.hotel-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.hotel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.amenity-icon {
+    color: #ff6b35;
+    margin-right: 5px;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.btn-warning {
+    background-color: #ff6b35;
+    border-color: #ff6b35;
+}
+
+.btn-warning:hover {
+    background-color: #e55a2b;
+    border-color: #e55a2b;
+} 
